@@ -1,0 +1,11 @@
+inspired y this one: https://www.behance.net/gallery/46614109/Minimalist-Beauty-Salon-Website-Concept?utm_source=chatgpt.com
+
+above it if its open or close based on time of the person seeing the website
+1. Header / Navbar ✅
+2. Hero section (title + image)✅
+3. Services / Features (3 blocks with images)
+4. Gallery section (big image / slider)✅
+5. Pricelist section (2 columns)✅
+
+6. Call-to-action (Book appointment)✅
+7. Footer

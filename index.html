@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Nada Beauté</title>
+    <link rel="icon" type="image/png" href="assets/IMG/logoone.jpeg">
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+    <link rel="stylesheet" href="assets/CSS/GalleryStyle.css">
+    <link rel="stylesheet" href="assets/CSS/FooterStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+
+            <div class="mobile-header">
+                <button id="menuBtn" class="menu-btn">☰</button>
+
+                <div class="mobile-brand">
+                    <img src="assets/IMG/logozero-removebg-preview.png" width="45">
+                    <span>Coin Nada Beauté</span>
+                </div>
+            </div>
+
+            <div class="logo">
+                <img src="assets/IMG/logozero-removebg-preview.png" width="50">
+                <span class="brand-title">Coin Nada Beauté & Spa</span>
+            </div>
+
+            <ul class="desktop-menu">
+                <li><a href="#hero">Accueil</a></li>
+                <li><a href="#pricelist">Services</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <div id="mobileMenu" class="mobile-menu">
+
+        <button id="closeMenu" class="close-btn">✕</button>
+
+        <div class="mobile-nav">
+            <a href="#hero">Accueil</a>
+
+            <button class="submenu-toggle">Services ▼</button>
+
+            <div class="submenu">
+                <a href="#pricelist">Coiffure</a>
+                <a href="#pricelist">Hammam</a>
+                <a href="#pricelist">Massage</a>
+                <a href="#pricelist">Esthétique</a>
+            </div>
+
+            <a href="#galerie">Galerie</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <a href="#contact" class="mobile-cta">Prendre rendez-vous</a>
+        <a href="assets/IMG/pricelist.heic" download class="btn-download">
+                    Télécharger la carte des tarifs
+        </a>
+    </div>
+
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content reveal">
+                <h1>Révélez votre beauté naturelle</h1>
+                <p>Coiffure, soins et élégance au cœur de votre style</p>
+                <a href="#contact" class="btn-hero">Prendre rendez-vous</a>
+            </div>
+        </section>
+
+        <section class="univers-section reveal">
+            <div class="univers-container">
+
+                <div class="univers-text">
+                    <img src="assets/IMG/logozero-removebg-preview.png" width="100px" height="auto">
+                    <h2 class="brand-title">Coin Nada Beauté & Spa</h2>
+                    <span class="badge">100% Femmes</span>
+
+                    <p>
+                        Un espace dédié exclusivement aux femmes, où beauté, détente
+                        et élégance se rencontrent.  
+                        Coiffure, esthétique, hammam et soins personnalisés dans
+                        une ambiance chaleureuse et raffinée.
+                    </p>
+                </div>
+
+                <div class="univers-video">
+
+                    <video id="mainVideo" playsinline muted loop preload="auto">
+                        <source src="assets/VIDEO/reel3.mp4" type="video/mp4">
+                    </video>
+                    <button id="muteBtn" class="mute-btn">🔇</button>
+
+                    <div class="video-catalog">
+                        <button class="video-item active" data-video="assets/VIDEO/reel3.mp4">1</button>
+                        <button class="video-item" data-video="assets/VIDEO/reel2.mp4">2</button>
+                        <button class="video-item" data-video="assets/VIDEO/reel4.mp4">3</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="cards">
+            <button class="cards-arrow left">‹</button>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="assets/IMG/HairWash.jpeg" alt="Coiffure">
+                    <h3>Coiffure</h3>
+                    <p>Des coupes tendance et des styles personnalisés pour sublimer votre look.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/IMG/spa.jpeg" alt="Soins des ongles">
+                    <h3>Soins des ongles</h3>
+                    <p>Manucures et pédicures de qualité pour des ongles impeccables.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/IMG/skin-care.jpg" alt="Soins de la peau">
+                    <h3>Soins de la peau</h3>
+                    <p>Des traitements adaptés pour une peau éclatante et en pleine santé.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/IMG/makeup.jpg" alt="Maquillage">
+                    <h3>Maquillage</h3>
+                    <p>Des looks professionnels pour toutes les occasions spéciales.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/IMG/hair-color.jpg" alt="Coloration">
+                    <h3>Coloration</h3>
+                    <p>Des couleurs vibrantes et des techniques modernes pour transformer votre style.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/IMG/hair-treatment.jpg" alt="Soins capillaires">
+                    <h3>Soins capillaires</h3>
+                    <p>Des traitements nourrissants pour des cheveux sains et brillants.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/IMG/spa.jpeg" alt="Soins capillaires">
+                    <h3>Soins capillaires</h3>
+                    <p>Des traitements nourrissants pour des cheveux sains et brillants.</p>
+                </div>
+            </div>
+
+            <button class="cards-arrow right">›</button>
+            
+        </section>
+
+        <section id="galerie" class="gallery-section">
+            <div class="gallery-container">
+                <div class="gallery-header">
+                    <h2 class="gallery-title reveal">Galerie</h2>
+                </div>
+
+                <div class="gallery-slider">
+                    <div class="gallery-track reveal" id="galleryTrack"></div>
+                </div>
+
+                <div class="gallery-nav">
+                    <button class="nav-arrow prev">←</button>
+                    <div class="nav-dots" id="navDots"></div>
+                    <button class="nav-arrow next">→</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricelist" class="pricelist">
+            <h2 class="reveal">Nos tarifs</h2>
+
+            <div class="price-grid">
+                <div class="price-column reveal">
+                    <h3>Coiffure</h3>
+                    <ul>
+                        <li><span>Brushing</span><span>25</span></li>
+                        <li><span>Touching</span><span>15</span></li>
+                        <li><span>Coupe</span><span>30</span></li>
+                        <li><span>Pointes</span><span>20</span></li>
+                        <li><span>Chignon invité</span><span>150</span></li>
+                        <li><span>Wavy</span><span>150</span></li>
+                    </ul>
+
+                    <h3>Massage</h3>
+                    <ul>
+                        <li><span>Massage relaxant 30 min</span><span>100</span></li>
+                        <li><span>Massage relaxant 60 min</span><span>200</span></li>
+                    </ul>
+
+                    <h3>Hammam</h3>
+                    <ul>
+                        <li><span>Hammam beldi</span><span>100</span></li>
+                        <li><span>Hammam prestige</span><span>150</span></li>
+                        <li><span>Hammam Coin Nada</span><span>200</span></li>
+                        <li><span>Hammam royal</span><span>250</span></li>
+                    </ul>
+                </div>
+
+                <div class="price-column reveal">
+                    <h3>Esthétique</h3>
+                    <ul>
+                        <li><span>Soin visage classique</span><span>150</span></li>
+                        <li><span>Soin visage hydratant</span><span>100</span></li>
+                        <li><span>Soin visage spécifique</span><span>200</span></li>
+                        <li><span>Soin éclat</span><span>300</span></li>
+                        <li><span>Soin hydrafacial</span><span>400</span></li>
+                    </ul>
+
+                    <h3>Épilation</h3>
+                    <ul>
+                        <li><span>Sourcil / duvet / menton</span><span>20</span></li>
+                        <li><span>Aisselles</span><span>25</span></li>
+                        <li><span>Visage</span><span>60</span></li>
+                        <li><span>Jambes complètes</span><span>90</span></li>
+                        <li><span>Bras complets</span><span>70</span></li>
+                        <li><span>Ventre / bas dos</span><span>50</span></li>
+                    </ul>
+
+                    <h3>Cils</h3>
+                    <ul>
+                        <li><span>Cils normal</span><span>60</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pricelist-download reveal">
+                <h3>Voir Plus 👇</h3>
+                <a href="assets/IMG/pricelist.heic" download class="btn-download">
+                    Télécharger la carte des tarifs
+                </a>
+            </div>
+        </section>
+
+        <section class="lux">
+            <div class="lux-overlay"></div>
+
+            <div class="lux-div reveal">
+                <h2>Offrez-vous l'expérience beauté que vous méritez</h2>
+                <a href="#contact" class="btn-hero">Prendre rendez-vous</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-modern">
+            <div class="contact-grid">
+
+                <div class="map reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.5146155452017!2d-5.56915252448025!3d33.87639797322368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda05bf9c490bd11%3A0xb8895bfdf0a01cff!2sSalon%20Coin%20Nada%20Beaut%C3%A9!5e0!3m2!1sfr!2sma!4v1768051498729!5m2!1sfr!2sma" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="contact-form reveal">
+                    <h2>Prendre rendez-vous</h2>
+
+                    <form id="whatsappForm">
+                        <input type="text" id="name" placeholder="Nom" required>
+                        <input type="tel" id="phone" placeholder="Téléphone" required>
+                        <textarea id="message" placeholder="Message" rows="4" required></textarea>
+
+                        <button type="submit">Envoyer sur WhatsApp</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-toggle">
+                    <h4 class="reveal">Dernières nouvelles</h4>
+                    <span class="toggle-icon"><i class="fas fa-chevron-up"></i></span>
+                </div>
+                <div class="footer-content open">
+                    <div class="phone-mockup reveal">
+                        <video autoplay muted loop playsinline>
+                            <source src="assets/VIDEO/salon.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-toggle">
+                    <h4 class="reveal">HORAIRES</h4>
+                    <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="footer-content reveal">
+                    <ul class="reveal">
+                        <li>Lundi — De 10h à 21h</li>
+                        <li>Mardi — De 10h à 21h</li>
+                        <li>Mercredi — De 10h à 21h</li>
+                        <li>Jeudi — De 10h à 21h</li>
+                        <li>Vendredi — De 10h à 21h</li>
+                        <li>Samedi — De 10h à 21h</li>
+                        <li>Dimanche — De 10h à 21h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-toggle">
+                    <h4 class="reveal">CONTACT</h4>
+                    <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="footer-content reveal">
+                    <p class="reveal">Telephone:<br>0661362699</p>
+                    <p class="reveal">Fax:<br>514-456-7890</p>
+                    <p class="reveal">Email:<br>info@mybeautysalon.com</p>
+                    <p class="reveal">Address:<br><Address class="reveal">Avenue Rahal El Maskini, Meknes</Address></p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-toggle">
+                    <h4 class="reveal">Réseaux sociaux</h4>
+                    <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="footer-content">
+                    <p class="reveal">Suivez‑nous sur les réseaux sociaux pour ne rien manquer de nos concours et partager vos relooking avec nous !</p>
+                    <div class="social-icons reveal">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/coin_nada_beaute?igsh=MXk4Zno0cnlmdmZi"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/212770966445?text=Bonjour%20je%20souhaite%20prendre%20rendez-vous" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <script src="assets/JS/script.js" defer></script>
+    <script src="assets/JS/Gallery.js" defer></script>
+    <script src="assets/JS/FooterScript.js" defer></script>
+    <script src="assets/JS/WhoWeAre.js" defer></script>
+    <script src="assets/JS/Header.js" defer></script>
+</body>
+</html>

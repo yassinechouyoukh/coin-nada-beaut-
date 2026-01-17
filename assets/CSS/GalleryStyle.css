@@ -1,0 +1,88 @@
+/* ===== GALLERY ONLY ===== */
+.gallery-section {
+    padding: 80px 20px;
+    background: #fff;
+}
+
+.gallery-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.gallery-slider {
+    overflow: hidden;
+}
+
+.gallery-track {
+    display: flex;
+    transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.gallery-slide {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.gallery-image {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery-caption {
+    margin-top: 20px;
+    color: #2a2a2a;
+    font-size: 1em;
+    padding: 0 15px;
+}
+
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.nav-arrow {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    background: rgba(0,0,0,0.05);
+}
+
+.nav-dots {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-dot.active {
+    background: #333;
+}
