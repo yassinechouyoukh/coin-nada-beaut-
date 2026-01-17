@@ -18,7 +18,6 @@ body{
     background-color: var(--bg-color);
     overflow-x: hidden;
 }
-<<<<<<< HEAD
 .btn-download {
     display: inline-block;
     padding: 14px 34px;
@@ -37,8 +36,6 @@ body{
     box-shadow: 0 8px 18px rgba(0,0,0,0.25);
 }
 
-=======
->>>>>>> b0860adc95d539df55bc6e1cafcb4936ec5cb961
 .reveal {
     opacity: 0;
     transform: translateY(40px);
@@ -61,7 +58,6 @@ header{
     top: 0;
     z-index: 1000;
     color: var(--text);
-<<<<<<< HEAD
     border-bottom: 1.5px solid var(--lines);
     box-shadow: 0 2px 4px var(--shadow);
     padding: 1px 180px;
@@ -107,15 +103,6 @@ header{
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
-
-=======
-    padding: 10px 0;
-    border-bottom: 1.5px solid var(--lines);
-    box-shadow: 0 2px 4px var(--shadow);
-    padding: 6px 180px;
-    background: pink;
-}
->>>>>>> b0860adc95d539df55bc6e1cafcb4936ec5cb961
 .logo{
     display: flex;
     align-items: center;
@@ -123,14 +110,11 @@ header{
     font-size: 24px;
     font-weight: bold;
 }
-<<<<<<< HEAD
-=======
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
->>>>>>> b0860adc95d539df55bc6e1cafcb4936ec5cb961
 nav ul{
     list-style: none;
     display: flex;
@@ -142,7 +126,6 @@ nav ul li a{
     color: var(--text);
     font-weight: bold;
 }
-<<<<<<< HEAD
 .logo span{
     font-family: 'Dancing Script', cursive;
     letter-spacing: 1px;
@@ -151,10 +134,8 @@ nav ul li a{
     .logo{
         display: none;
     }
-=======
-
+}
 @media (max-width: 768px) {
->>>>>>> b0860adc95d539df55bc6e1cafcb4936ec5cb961
     .logo span{
         display: none;
     }
@@ -169,7 +150,6 @@ nav ul li a{
         justify-content: center;
         align-items: center;
     }
-<<<<<<< HEAD
 
 }
 /* MOBILE HEADER */
@@ -283,7 +263,6 @@ nav ul li a{
 .hero {
     height: 100vh;
     background-image: url("../IMG/front.jpeg");
-=======
     nav ul {
         padding-left: 10px;
         gap: 15px;
@@ -295,7 +274,6 @@ nav ul li a{
 .hero {
     height: 100vh;
     background-image: url("../IMG/mirror.png");
->>>>>>> b0860adc95d539df55bc6e1cafcb4936ec5cb961
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -368,7 +346,6 @@ nav ul li a{
     
 }
 /*DONE HERO ABOVE===============================================*/
-<<<<<<< HEAD
 .univers-section {
     padding: 100px 20px;
     background: #fde6ea;
@@ -475,8 +452,6 @@ nav ul li a{
 }
 
 /*DONE HOW WE ARE ABOVE===============================================*/
-=======
->>>>>>> b0860adc95d539df55bc6e1cafcb4936ec5cb961
 .cards {
     position: relative;
     padding: 80px 40px;
@@ -603,13 +578,10 @@ nav ul li a{
 .price-column li span:last-child {
     font-weight: 500;
 }
-<<<<<<< HEAD
 .pricelist-download {
     text-align: center;
     margin-top: 50px;
 }
-=======
->>>>>>> b0860adc95d539df55bc6e1cafcb4936ec5cb961
 
 /* MOBILE */
 @media (max-width: 700px) {
