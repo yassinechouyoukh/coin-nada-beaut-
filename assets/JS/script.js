@@ -6,7 +6,7 @@ document.getElementById("whatsappForm").addEventListener("submit", function(e) {
     const phone = document.getElementById("phone").value;
     const message = document.getElementById("message").value;
 
-    const whatsappNumber = "212614364583"; // ← CHANGE to her real number (NO +)
+    const whatsappNumber = "212661362699"; // ← CHANGE to her real number (NO +)
 
     const text =
         `Bonjour, je souhaite prendre rendez-vous.%0A%0A` +
