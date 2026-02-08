@@ -273,7 +273,7 @@ nav ul li a{
 /*DONE HEADER ABOVE===============================================*/
 .hero {
     height: 100vh;
-    background-image: url("../IMG/mirror.png");
+    background-image: url("../IMG/hero-img.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -3,28 +3,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const galleryData = [
         {
             id: 1,
-            image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=750&q=80",
-            caption: "Layers or blunt cut? If you're undecided, why not leave it up to our team of experts to give you ideas for your newest look?"
+            image: "../assets/IMG/gall-1.jpg"
         },
         {
             id: 2,
-            image: "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=750&q=80",
-            caption: "Sharp, clean lines for a modern silhouette that exudes confidence and style."
+            image: "../assets/IMG/gall-2.jpg"
         },
         {
             id: 3,
-            image: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=750&q=80",
-            caption: "Balayage coloring technique for natural-looking highlights that blend seamlessly with your base color."
+            image: "../assets/IMG/gall-3.png"
         },
         {
             id: 4,
-            image: "https://images.unsplash.com/photo-1519415711931-702deacf5be8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=750&q=80",
-            caption: "Textured curls with face-framing layers for volume and bounce that captures light beautifully."
+            image: "../assets/IMG/gall-4.jpg"
         },
         {
             id: 5,
-            image: "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=750&q=80",
-            caption: "Pixie cut with textured top for a bold, low-maintenance style that's both chic and practical."
+            image: "../assets/IMG/gall-5.jpg"
+        },
+        {
+            id: 6,
+            image: "../assets/IMG/gall-6.png"
         }
     ];
 
@@ -48,7 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             slide.innerHTML = `
                 <img src="${item.image}" alt="Gallery image ${item.id}" class="gallery-image">
-                <p class="gallery-caption">${item.caption}</p>
             `;
             
             galleryTrack.appendChild(slide);

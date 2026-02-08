@@ -16,3 +16,17 @@ submenuToggle.addEventListener("click", () => {
     submenu.style.display =
         submenu.style.display === "flex" ? "none" : "flex";
 });
+// AUTO-CLOSE MOBILE MENU WHEN CLICKING A LINK
+const mobileLinks = document.querySelectorAll(
+    "#mobileMenu a, #mobileMenu button.submenu-toggle"
+);
+
+mobileLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+
+        // Allow submenu toggle to open submenu without closing
+        if (link.classList.contains("submenu-toggle")) return;
+
+        mobileMenu.classList.remove("active");
+    });
+});

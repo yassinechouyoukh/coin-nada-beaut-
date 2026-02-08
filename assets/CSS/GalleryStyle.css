@@ -38,17 +38,10 @@
 .gallery-image {
     width: 100%;
     max-width: 800px;
-    height: 500px;
+    height: 550px;
     object-fit: cover;
     margin: 0 auto;
     display: block;
-}
-
-.gallery-caption {
-    margin-top: 20px;
-    color: #2a2a2a;
-    font-size: 1em;
-    padding: 0 15px;
 }
 
 .gallery-nav {

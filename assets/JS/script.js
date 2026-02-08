@@ -22,9 +22,9 @@ document.getElementById("whatsappForm").addEventListener("submit", function(e) {
 const luxSection = document.querySelector(".lux");
 
 const luxImages = [
-    "assets/IMG/hair-air.png",
-    "assets/IMG/mirror.png",
-    "assets/IMG/hair-wash.png"
+    "assets/IMG/lux-1.jpg",
+    "assets/IMG/lux-2.jpg",
+    "assets/IMG/lux-4.jpg"
 ];
 
 let luxIndex = 0;
